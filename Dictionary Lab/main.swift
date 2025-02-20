@@ -25,13 +25,14 @@ var practiceDictionary = ["rigmarole": "a lengthy and complicated procedure"]
  
 print("\n PROBLEM 1.0 : CREATE YOUR OWN \n")
 //Create a dictionary called mappingIntegers that that maps an integer (1) to its English word (one). And print it.
-
+var mappingIntegers : [Int : String] = [1 : "one"]
+print(mappingIntegers)
  
  
  
 print("\n PROBLEM 1.1  : TYPE OF DICTIONARY \n")
 //Add a comment describing the type of the dictionary you just made, explain why it is that type. Simple. Read and print the comment below.
-
+print("the type of dictionary is an [Int: String], the key is an integer and the value is a string. This dictionary is a shorthand type of dictionary. I created this type of dictionary so it can map the integer to its English word. ")
  
  
  
@@ -40,7 +41,11 @@ print("\n PROBLEM 2.0 : ADVANCED DICTIONARY \n")
 //Then print favoriteWords.
 //Use the words cumulative, mnemonic, and satire. 
 
- 
+var favoriteWords : [String : String] = [
+    "cumulative" : " increase of growing by accumulation or successive additions",
+"mnemonic" : " a device such as a pattern of letters, iedeas , or associations that assitis in remebering something",
+    "satire" : " The use of humor, irnoy , exaggeration , or ridicule to expose and citicize people stupidly or vices particluarly in the context contemporary policitcs other tropical issues. "]
+
  
  
  
